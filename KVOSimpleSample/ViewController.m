@@ -7,8 +7,14 @@
 //
 
 #import "ViewController.h"
+#import "TimerModel.h"
 
 @interface ViewController ()
+{
+    NSInteger kSceondNumber;
+    NSTimer *kTimer;
+}
+@property (weak, nonatomic) IBOutlet UILabel *kTimeLabel;
 
 @end
 
@@ -16,7 +22,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    kTimer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(changeKTimeLabelText:) userInfo:nil repeats:YES];
+    
+}
+
+-(void)dealloc {
+    
+    [kTimer invalidate];
+    kTimer = nil;
+}
+
+-(void)changeKTimeLabelText:(NSTimer*)timer {
+    
+    
+    [TimerModel sharedInstance].gTimeNumberText = [@(kSceondNumber) stringValue];
+    _kTimeLabel.text = [@(kSceondNumber) stringValue];
+//    NSLog(@"%ld,%@",kSceondNumber,[TimerModel sharedInstance].gTimeNumberText);
+    kSceondNumber++;
 }
 
 - (void)didReceiveMemoryWarning {

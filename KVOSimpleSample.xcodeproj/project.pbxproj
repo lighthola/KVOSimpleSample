@@ -15,6 +15,8 @@
 		CED619BE1D1A32000091CF36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED619BC1D1A32000091CF36 /* LaunchScreen.storyboard */; };
 		CED619C91D1A32000091CF36 /* KVOSimpleSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CED619C81D1A32000091CF36 /* KVOSimpleSampleTests.m */; };
 		CED619D41D1A32000091CF36 /* KVOSimpleSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CED619D31D1A32000091CF36 /* KVOSimpleSampleUITests.m */; };
+		CED619E31D1A38990091CF36 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED619E21D1A38990091CF36 /* NextViewController.m */; };
+		CED619E61D1A3A280091CF36 /* TimerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CED619E51D1A3A280091CF36 /* TimerModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		CED619CF1D1A32000091CF36 /* KVOSimpleSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVOSimpleSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED619D31D1A32000091CF36 /* KVOSimpleSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOSimpleSampleUITests.m; sourceTree = "<group>"; };
 		CED619D51D1A32000091CF36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED619E11D1A38990091CF36 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		CED619E21D1A38990091CF36 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		CED619E41D1A3A280091CF36 /* TimerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerModel.h; sourceTree = "<group>"; };
+		CED619E51D1A3A280091CF36 /* TimerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +109,13 @@
 			children = (
 				CED619B11D1A32000091CF36 /* AppDelegate.h */,
 				CED619B21D1A32000091CF36 /* AppDelegate.m */,
+				CED619E41D1A3A280091CF36 /* TimerModel.h */,
+				CED619E51D1A3A280091CF36 /* TimerModel.m */,
 				CED619B41D1A32000091CF36 /* ViewController.h */,
 				CED619B51D1A32000091CF36 /* ViewController.m */,
 				CED619B71D1A32000091CF36 /* Main.storyboard */,
+				CED619E11D1A38990091CF36 /* NextViewController.h */,
+				CED619E21D1A38990091CF36 /* NextViewController.m */,
 				CED619BA1D1A32000091CF36 /* Assets.xcassets */,
 				CED619BC1D1A32000091CF36 /* LaunchScreen.storyboard */,
 				CED619BF1D1A32000091CF36 /* Info.plist */,
@@ -271,6 +281,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CED619B61D1A32000091CF36 /* ViewController.m in Sources */,
+				CED619E31D1A38990091CF36 /* NextViewController.m in Sources */,
+				CED619E61D1A3A280091CF36 /* TimerModel.m in Sources */,
 				CED619B31D1A32000091CF36 /* AppDelegate.m in Sources */,
 				CED619B01D1A32000091CF36 /* main.m in Sources */,
 			);

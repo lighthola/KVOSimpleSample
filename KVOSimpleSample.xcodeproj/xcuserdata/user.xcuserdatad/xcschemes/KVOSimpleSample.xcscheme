@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CED619AA1D1A32000091CF36"
+               BuildableName = "KVOSimpleSample.app"
+               BlueprintName = "KVOSimpleSample"
+               ReferencedContainer = "container:KVOSimpleSample.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CED619C31D1A32000091CF36"
+               BuildableName = "KVOSimpleSampleTests.xctest"
+               BlueprintName = "KVOSimpleSampleTests"
+               ReferencedContainer = "container:KVOSimpleSample.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CED619CE1D1A32000091CF36"
+               BuildableName = "KVOSimpleSampleUITests.xctest"
+               BlueprintName = "KVOSimpleSampleUITests"
+               ReferencedContainer = "container:KVOSimpleSample.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CED619AA1D1A32000091CF36"
+            BuildableName = "KVOSimpleSample.app"
+            BlueprintName = "KVOSimpleSample"
+            ReferencedContainer = "container:KVOSimpleSample.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CED619AA1D1A32000091CF36"
+            BuildableName = "KVOSimpleSample.app"
+            BlueprintName = "KVOSimpleSample"
+            ReferencedContainer = "container:KVOSimpleSample.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CED619AA1D1A32000091CF36"
+            BuildableName = "KVOSimpleSample.app"
+            BlueprintName = "KVOSimpleSample"
+            ReferencedContainer = "container:KVOSimpleSample.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

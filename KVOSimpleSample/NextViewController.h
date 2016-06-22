@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NextViewController.h
 //  KVOSimpleSample
 //
 //  Created by user on 2016/6/22.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface NextViewController : UIViewController
 
 @end
-
